@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+body,html {
+	height:100%;
+	margin: 0;
+	font-family: 'S-CoreDream-8Heavy';
+	
+   
+}
+@font-face {
+	font-family: 'S-CoreDream-8Heavy';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#logo {
+	height: 100%;
+	width: 750px;
+	align: left;
+	padding-top:20px; 
+	padding-left:10px;
+	position: relative;
+}
+
+#maindate {
+	font-family: 'S-CoreDream-8Heavy';
+	font-size: 80px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	margin: 0;
+	color: #353535;
+	padding-left: 130px;
+	position: relative;
+}
+
+#mainAreaName {
+	color: #030066;
+	font-size: 90px;
+	position: relative;
+}
+
+#DateTD{
+	font-family: 'S-CoreDream-8Heavy';
+	font-size: 47px;
+	border-radius: 10px;
+	text-align: center;
+	color: #353535;
+	font-weight: normal;
+	position: relative;
+	background-color: rgb(255, 216, 93);
+	margin: 20px;
+	
+}
+
+#DataTD{
+	font-family: 'S-CoreDream-8Heavy';
+	font-size: 47px;
+	border-radius: 10px;
+	text-align: center;
+	color: #FFF;
+	font-weight: normal;
+	position: relative;
+	text-shadow:2px 3px #353535;
+}
+
+#DataTD_now{
+	color: #D5D5D5; 
+	opacity: 0.7;
+	font-family: 'S-CoreDream-8Heavy';
+	font-size: 47px;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: normal;
+	position: relative;
+	text-shadow:2px 3px #353535;
+}
+
+<!--kakao 지도 CSS -->
+
+.overlay_info .desc {
+	min-width: 500px;
+	height:80px;
+	width:100px;
+	position: relative;
+	
+}
+
+#bodytable {
+	width: 100%; 
+	height: 95%; 
+	border: none;
+	padding-left: 130px;
+	padding-right: 130px;
+	padding-top: 50px;
+	table-layout: fixed;
+	
+	
+}
+
+#map{
+	position: relative;
+	height:100%;
+	width:40%;
+	background-color: #CBDCDF;
+	border-radius: 10px;
+}
+
+#chart_div1,#chart_div2 {
+	position: relative;
+	height:100%;
+	width:100%;
+	background-color: red;
+	
+}
+
+#Nwimg {
+	height:80px;
+	width:100px;
+}
+
+
+#fcWeatehr {
+	 width: 100%; 
+	 height: 100%; 
+	 padding: 20px;
+	 margin:20px;
+	 position: relative;
+     table-layout: fixed;
+     border-radius: 10px;
+     background-color: #ffffff;
+     background-color: rgba( 255, 255, 255, 0.2);
+}
+#weahter {
+	padding: 30px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	float: left;
+	position: relative;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	background-color: #fff;
+	border-collapse: collapse;
+    table-layout: fixed;
+	
+}
+
+<!--
+페이지 관련 CSS -->
+#Box {
+	position: relative;
+	display: table;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	height:100%;
+	
+}
+
+#head1 {
+	top: 0;
+	float: left;
+	width: 100%;
+	height: 8%;
+	padding-top: 20px;
+	padding-bottom: 0;
+	position: relative;
+	background-color: #FFF;
+}
+
+#head2 {
+	float: left;
+	width: 100%;
+	height: 8%;
+	position: relative;
+	background-color: #FFF;
+	padding-bottom: 30px;
+}
+
+#body {
+	
+	padding-top: 15px;
+	padding-bottom: 20px;
+	clear: left;
+	float: left;
+	border: none;
+	width:100%;
+	height:75%;
+	
+	position: absolute;
+	clear: left;
+	float: left;;
+	width: 100%;
+	bottom: 0px;
+	
+	background: #4B79A1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+<!--지역선택 CSS -->
+
+#areaName {
+	background:
+		url('https://t1.daumcdn.net/cfile/tistory/99761B495C84AA8716')
+		no-repeat 95, 50%;
+	border-radius: 0px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'S-CoreDream-8Heavy';
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+button {
+	text-shadow:2px 3px #D5D5D5;
+	font-family: 'S-CoreDream-8Heavy';
+	width: 400px;
+	height: 200px;
+	background-color: #fff;
+	border: solid #FFFFFF;
+	border-radius: 10px;
+	color: #353535;
+	line-height: 50px;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	-webkit-transition: none;
+	transition: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 9px;
+	position: relative;
+}
+
+button:hover {
+	font-family: 'S-CoreDream-8Heavy';
+	background-color: #CBDCDF;
+	color: #353535;
+	position: relative;
+}
+
+button:active {
+	font-family: 'S-CoreDream-8Heavy';
+	background: #1a92c2;
+	background-color: #CBDCDF;
+	font-weight: bold;
+	color: #353535;
+	position: relative;
+}
